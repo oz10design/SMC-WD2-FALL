@@ -1,0 +1,120 @@
+@charset "UTF-8";
+
+img {max-width:100%; height:auto; display:block;margin-top: -18px;}
+
+body {background-color:#ffffff;}
+
+#wrapper {width:1280px;max-width: 1280px; height:1100px; max-height: 4000px; margin-left:auto;margin-right:auto; background-color: peachpuff;padding-top:60px;}
+
+.grid-box {
+    float: left;
+}
+
+header {
+    background-color: rgb(2, 2, 2);
+	height: 150px;
+    width: 1280px;
+    margin-bottom: 450px;}
+
+h1 {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 120px;
+    color: white;
+}
+
+
+.grid-box {
+    width: 250px;
+    height: 250px;
+    background-color: black;
+    margin-top: 40px;
+    margin-left: 130px;
+    float: left;
+    top:50%;
+    left:50%;
+}
+
+.text {
+    width: 1280px;
+    height: 1000px;
+    margin-top:auto;
+    background-color: white;
+}
+
+p {
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    padding: 60px;
+}
+
+* {
+    padding: 0;
+    margin:0;
+    font-family: sans-serif;
+}
+
+.registration-form {
+    position: relative;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    width: 1280px;
+    height: 1200px;
+    background-color: peachpuff;
+    margin-bottom: -400px;
+    
+}
+
+.registration-form h2{
+    font-size: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 10px 0;
+    margin-top: 260px;
+    padding-top: 20px;
+
+}
+
+.registration-form p {
+    font-size: 25px;
+    margin: 15px 0;
+    
+}
+
+.registration-form input {
+    font-size: 20px;
+    padding: 15px 10px;
+    width: 100%;
+    border: 0;
+    border-radius: 5px;
+    outline: none;
+
+}
+
+.registration-form button{
+    font-size: 20px;
+    font-weight: bold;
+    margin: 20px 0;
+}
+
+
+.box {
+    width: 540px;
+    height: 640px;
+    background-color: rgb(2, 2, 2);
+    margin-left:66px;
+    float: left;
+    margin-top: -400px;
+}
+
+.box p{
+    font-size: 25px;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(255, 254, 254);
+    text-align: left;
+    padding-top: 25px;
+    
+}
+
