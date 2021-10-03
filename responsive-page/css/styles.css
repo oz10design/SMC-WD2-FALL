@@ -15,7 +15,7 @@ body{
 }
 
 nav{
-    background: #0082e6;
+    background: #424242;
     height: 80px;
     width: 100%;
 }
@@ -49,7 +49,7 @@ nav ul li a{
 
 a.active,a:hover{
     background: #1b9bff;
-    transition: .5s;
+    transition: .1s;
 }
 
 .checkbtn{
@@ -116,8 +116,9 @@ p{
 
 @media (max-width: 952px){
     label.logo{
-        font-size: 30px;
+        font-size: 15px;
         padding-left: 50px;
+        text-align: center;
     }
 
     nav ul li a{
@@ -173,7 +174,7 @@ p{
         top: 80px;
         left: -100%;
         text-align: center;
-        transition: all .5s;
+        transition: all .1s;
     }
 
     nav ul li{
