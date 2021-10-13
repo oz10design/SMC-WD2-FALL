@@ -1,14 +1,18 @@
 /*colors*/
 .blue{
-    background-color: rgb(69, 150, 241);
+    background: rgb(57, 120, 197);
 }
 
 .green{
-    background-color: rgb(66, 155, 66);
+    background-image: url(/Layout-with-css\ grid/images/gowtitle.jpg);
+    background-size: cover;
+    background-position: center;
 }
 
 .yellow{
-    background-color: rgb(223, 223, 90);
+    background-image: url(/Layout-with-css\ grid/kratos.jpg);
+    background-size: cover;
+    background-position: center;
 }
 
 .red{
@@ -23,6 +27,30 @@
     background-color: rgb(0, 0, 0);
 }
 
+img{
+    max-width: 100%; max-height: 100%; border-radius: 20px;
+}
+
+h1{
+    text-align: center;
+    top:50%;
+    left:10%;
+    padding-top: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    font-style: italic;
+    color: white;
+    
+}
+
+p{
+    padding: 50px 20px;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+}
+
+
 .grid-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -36,27 +64,39 @@
 
 .grid-item:nth-child(1){
     display: none;
+    
 }
 
 .grid-item:nth-child(2){
     grid-column: 2 / span 2;
     grid-row: 1 / span 1;
+    border-radius: 15px;
 }
 
 .grid-item:nth-child(3){
     grid-column: 1 / span 1;
     grid-row: 2 / span 1;
+    border-radius: 15px;
 }
 
 .grid-item:nth-child(4){
     grid-column: 2 / span 2;
     grid-row: 2 / span 1;
+    border-radius: 15px;
 }
 .grid-item:nth-child(5){
     grid-column: 1 / span 3;
+    border-radius: 15px;
 }
 
 @media(min-width: 960px){
+
+    .green{
+        background-image: url(/Layout-with-css\ grid/images/goww.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+   
 
     .grid-container {
         display: grid;
@@ -67,7 +107,9 @@
 
     .grid-item {
         min-height: 200px;
+        overflow: hidden;
     }
+
     
     .grid-item:nth-child(1){
         display: none;
@@ -76,20 +118,54 @@
     .grid-item:nth-child(2){
         grid-column: 2 / span 2;
         grid-row: 1 / span 1;
+        border-radius: 20px;
     }
     
     .grid-item:nth-child(3){
         grid-column: 1 / span 1;
         grid-row: 2 / span 2;
+        border-radius: 20px;
     }
     
     .grid-item:nth-child(4){
         grid-column: 2 / span 2;
         grid-row: 2 / span 2;
+        border-radius: 20px;
     }
     .grid-item:nth-child(5){
         grid-column: 1 / span 3;
+        border-radius: 20px;
     }
+
+    .grid-item .green img{
+        overflow: hidden;
+        display:inline-block; position:relative;
+    }
+
+    img{
+        max-width: 100%; max-height: 100%;; border-radius: 20px;
+    }
+    h1{
+        text-align: center;
+        top:50%;
+        left:10%;
+        padding-top: 40px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 40px;
+        font-style: italic;
+        color: white;
+        
+    }
+    
+    p{
+        padding: 40px;
+        text-align: center;
+        font-size: 40px;
+        color: white;
+    }
+
+
+
 
 }
 
