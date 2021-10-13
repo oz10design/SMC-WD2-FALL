@@ -1,13 +1,13 @@
 /*colors*/
 .blue{
     background-color: rgb(92, 13, 13);
-    background-image: url(/Layout-with-css\ grid/images/gowlogo.jpg);
+    background-image: url(../images/gowlogo.jpg);
     background-size: cover;
     background-position: center;
 }
 
 .green{
-    background-image: url(/Layout-with-css\ grid/images/gowkratos.jpg);
+    background-image: url(../images/gowkratos.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -87,7 +87,7 @@ p{
 
     .blue{
         background-color: rgb(92, 13, 13);
-        background-image: url(/Layout-with-css\ grid/images/logogow.jpg);
+        background-image: url(../images/logogow.jpg);
         background-size: cover;
         background-position: center;
     }
