@@ -3,6 +3,7 @@
     background-image: url(../Santinositalianrestaurant/images/peter-bravo-de-los-rios-OklpRh8-Sns-unsplash.jpg);
     background-size: cover;
     background-position: center;
+    
 }
 
 .green{
@@ -152,7 +153,10 @@ h2{
     grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 25px;
     padding: 5px;
+    cursor: pointer;
+    transition: all 0.5s ease-in;
 }
+
 
 .grid-item{
     min-height: 200px;
@@ -160,12 +164,137 @@ h2{
     margin-top: 20px;
 }
 
+.grid-item.blue{
+    background-color: navy;
+    background-image: url(../Santinositalianrestaurant/images/peter-bravo-de-los-rios-OklpRh8-Sns-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    transition: all 0.5s ease-in;
+    text-align: center;
+    top: 50%;
+    
+}
+
+
 .grid-item.green{
     background-color: rgb(45, 66, 82);
     background-image: url(../Santinositalianrestaurant/images/olayinka-babalola-r01ZopTiEV8-unsplash.jpg);
     background-size: cover;
     background-position: center;
+    transition: all 0.5s ease-in;
+    text-align: center;
+    top: 50%;
 }
+
+.grid-item.yellow{
+    background-color: rgb(34, 99, 111);
+    background-image: url(../Santinositalianrestaurant/images/raphael-nogueira-Znvxeud6sDc-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    transition: all 0.5s ease-in;
+    text-align: center;
+    top: 50%;
+}
+
+.grid-item.red{
+    background-color: rgb(16, 37, 54);
+    background-image: url(../Santinositalianrestaurant/images/tomasz-rynkiewicz-VEjN2jMxf0A-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    transition: all 0.5s ease-in;
+    text-align: center;
+    top: 50%;
+}
+
+
+
+.overlay{
+    position:absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0;
+    transition: opacity 100% ease-in-out;
+    background: black;
+    color: white;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-width: 248px;
+    padding-top:40px;
+}
+
+.grid-item.blue:hover{
+    opacity: 0.7;
+    transform: scale(0.98);
+    width:248px;
+    height: 80px;
+}
+
+.grid-item.green:hover{
+    opacity: 0.7;
+    transform: scale(0.98);
+    width:248px;
+    height: 80px;
+}
+
+.grid-item.yellow:hover{
+    opacity: 0.7;
+    transform: scale(0.98);
+    width:248px;
+    height: 80px;
+}
+
+.grid-item.red:hover{
+    opacity: 0.7;
+    transform: scale(0.98);
+    width:248px;
+    height: 80px;
+}
+
+.grid-item.blue:hover .overlay{
+    opacity: 0.9;
+}
+
+.grid-item.yellow:hover .overlay{
+    opacity: 0.9;
+}
+
+.grid-item.green:hover .overlay{
+    opacity: 0.9;
+}
+
+.grid-item.red:hover .overlay{
+    opacity: 0.9;
+}
+
+h9{
+    padding-top: 30px;
+    top:50%;
+    left:50%;
+    color: white;
+    background-color: none;
+    transition: opacity(100);
+
+}
+
+h9 a{
+    color: white;
+}
+h9 a:link {
+    color:black;
+    text-decoration:none;
+    background-color: transparent; 
+    margin-top:5px; 
+    margin-left:auto;
+}
+h9 a:hover {
+    color:#C69C6D;
+    text-decoration:none;
+}
+
+
 
 footer{
     width: 100%;
@@ -255,6 +384,8 @@ h4{
     gap: 0;
     padding: 5px;
     padding-top: 120px;
+    cursor: pointer;
+    transition: all 0.5s ease-in;
 }
 
 .grid-item2{
@@ -262,23 +393,124 @@ h4{
     border-radius: 10px;
 }
 
+.grid-item2.blue{
+    background-color: navy;
+    background-image: url(../Santinositalianrestaurant/images/peter-bravo-de-los-rios-OklpRh8-Sns-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    transition: all 0.5s ease-in;
+    text-align: center;
+    top: 50%;
+}
 .grid-item2.green{
     background-image:url(../Santinositalianrestaurant/images/olayinka-babalola-r01ZopTiEV8-unsplash.jpg);
     background-size: cover;
     background-position: center;
+    transition: all 0.5s ease-in;
+    text-align: center;
+    top: 50%;
+}
+
+.grid-item2.yellow{
+    background-image: url(../Santinositalianrestaurant/images/raphael-nogueira-Znvxeud6sDc-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    transition: all 0.5s ease-in;
+    text-align: center;
+    top: 50%;
+}
+
+.grid-item2.red{
+    background-image: url(../Santinositalianrestaurant/images/tomasz-rynkiewicz-VEjN2jMxf0A-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    transition: all 0.5s ease-in;
+    text-align: center;
+    top: 50%;
 }
 
 .grid-item2.black{
     background-image:url(../Santinositalianrestaurant/images/salad.jpg);
     background-size: cover;
     background-position: center;
+    transition: all 0.5s ease-in;
+    text-align: center;
+    top: 50%;
 }
 .grid-item2.gray{
 background-image:url(../Santinositalianrestaurant/images/dessert.jpg);
     background-size: cover;
     background-position: center;
+    transition: all 0.5s ease-in;
+    text-align: center;
+    top: 50%;
 }
 
+.grid-item2.blue:hover{
+    opacity: 0.7;
+    transform: scale(0.98);
+    width:248px;
+    height: 80px;
+}
+
+.grid-item2.green:hover{
+    opacity: 0.7;
+    transform: scale(0.98);
+    width:248px;
+    height: 80px;
+}
+
+.grid-item2.yellow:hover{
+    opacity: 0.7;
+    transform: scale(0.98);
+    width:248px;
+    height: 80px;
+}
+
+.grid-item2.red:hover{
+    opacity: 0.7;
+    transform: scale(0.98);
+    width:248px;
+    height: 80px;
+}
+
+.grid-item2.black:hover{
+    opacity: 0.7;
+    transform: scale(0.98);
+    width:248px;
+    height: 80px;
+}
+
+.grid-item2.gray:hover{
+    opacity: 0.7;
+    transform: scale(0.98);
+    width:248px;
+    height: 80px;
+}
+
+.grid-item2.blue:hover .overlay{
+    opacity: 0.9;
+}
+
+.grid-item2.yellow:hover .overlay{
+    opacity: 0.9;
+}
+
+.grid-item2.green:hover .overlay{
+    opacity: 0.9;
+}
+
+.grid-item2.red:hover .overlay{
+    opacity: 0.9;
+}
+
+.grid-item2.black:hover .overlay{
+    opacity: 0.9;
+}
+
+.grid-item2.gray:hover .overlay{
+    opacity: 0.9;
+}
 /*contact-page*/
 
 h5{
@@ -441,6 +673,8 @@ h5{
         grid-template-columns: 1fr 1fr;
         gap: 15px;
         padding: 5px;
+        cursor: pointer;
+        transition: all 0.3s ease-in;
     }
     
     .grid-item{
@@ -448,6 +682,109 @@ h5{
         border-radius: 10px;
         margin-top: 20px;
     
+    }
+
+    .grid-item.blue{
+        background-color: navy;
+        background-image: url(../Santinositalianrestaurant/images/peter-bravo-de-los-rios-OklpRh8-Sns-unsplash.jpg);
+        background-size: cover;
+        background-position: center;
+        transition: all 0.8s ease-in;
+        text-align: center;
+        top: 50%;
+        
+    }
+    
+    
+    .grid-item.green{
+        background-color: rgb(45, 66, 82);
+        background-image: url(../Santinositalianrestaurant/images/olayinka-babalola-r01ZopTiEV8-unsplash.jpg);
+        background-size: cover;
+        background-position: center;
+        transition: all 0.8s ease-in;
+        text-align: center;
+        top: 50%;
+    }
+    
+    .grid-item.yellow{
+        background-color: rgb(34, 99, 111);
+        background-image: url(../Santinositalianrestaurant/images/raphael-nogueira-Znvxeud6sDc-unsplash.jpg);
+        background-size: cover;
+        background-position: center;
+        transition: all 0.8s ease-in;
+        text-align: center;
+        top: 50%;
+    }
+    
+    .grid-item.red{
+        background-color: rgb(16, 37, 54);
+        background-image: url(../Santinositalianrestaurant/images/tomasz-rynkiewicz-VEjN2jMxf0A-unsplash.jpg);
+        background-size: cover;
+        background-position: center;
+        transition: all 0.8s ease-in;
+        text-align: center;
+        top: 50%;
+    }
+
+    .overlay{
+        position:absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        opacity: 0;
+        transition: opacity 100% ease-in;
+        background: black;
+        color: white;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        min-width: 248px;
+        padding-top:40px;
+    }
+    
+    .grid-item.blue:hover{
+        opacity: 0.7;
+        transform: scale(0.98);
+        width:248px;
+        height: 80px;
+    }
+    
+    .grid-item.green:hover{
+        opacity: 0.7;
+        transform: scale(0.98);
+        width:248px;
+        height: 80px;
+    }
+    
+    .grid-item.yellow:hover{
+        opacity: 0.7;
+        transform: scale(0.98);
+        width:248px;
+        height: 80px;
+    }
+    
+    .grid-item.red:hover{
+        opacity: 0.7;
+        transform: scale(0.98);
+        width:248px;
+        height: 80px;
+    }
+    
+    .grid-item.blue:hover .overlay{
+        opacity: 0.9;
+    }
+    
+    .grid-item.yellow:hover .overlay{
+        opacity: 0.9;
+    }
+    
+    .grid-item.green:hover .overlay{
+        opacity: 0.9;
+    }
+    
+    .grid-item.red:hover .overlay{
+        opacity: 0.9;
     }
 
     .grid-item1.green p{
