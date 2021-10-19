@@ -60,6 +60,7 @@ nav .logo{
     text-align: center;
     margin-top: 30px;
     font-size: 30px;
+    font-family: 'Quicksand', sans-serif;
 }
 
 nav .links{
@@ -820,6 +821,15 @@ h8 span{
         float: none;
         width: auto;
         justify-content: center;
+        font-family: 'Quicksand', sans-serif;
+    }
+
+    h1{
+        font-family: 'Quicksand', sans-serif;
+    }
+
+    .logo{
+        font-family: 'Quicksand', sans-serif;
     }
     
     nav .links{
@@ -1077,7 +1087,7 @@ h6{
 
 p{
     text-align: left;
-    font-size: 18px;
+    font-size: 16px;
     font-family: 'Quicksand', sans-serif;
     padding: 20px 40px;
     color: white;
