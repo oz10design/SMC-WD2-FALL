@@ -190,7 +190,6 @@ h2{
 }
 
 .grid-item.blue{
-    background-color: navy;
     background-image: url(../Santinositalianrestaurant/images/peter-bravo-de-los-rios-OklpRh8-Sns-unsplash.jpg);
     background-size: cover;
     background-position: center;
@@ -240,7 +239,7 @@ h2{
     right: 0;
     bottom: 0;
     opacity: 0;
-    transition: opacity 100% ease-in-out;
+    transition: opacity 60% ease-in-out;
     background: black;
     color: white;
     top: 50%;
@@ -498,7 +497,7 @@ background-image:url(../Santinositalianrestaurant/images/dessert.jpg);
     right: 0;
     bottom: 0;
     opacity: 0;
-    transition: opacity 100% ease-out;
+    transition: opacity 100% ease-in-out;
     background: black;
     color: white;
     top: 50%;
@@ -524,7 +523,6 @@ h11 a{
     color: white;
 }
 h11 a:link {
-    color:black;
     text-decoration:none;
     background-color: transparent; 
     margin-top:5px; 
@@ -613,6 +611,14 @@ h5{
     font-weight: lighter; 
 }
 
+h12{
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+}
+
 .grid-container3 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -644,13 +650,6 @@ h5{
     background-position: center;
 }
 
-.grid-item3:nth-child(3){
-    grid-column:  4 / span 2;
-    grid-row: 2 / span 1;
-    border-radius: 15px;
-    background-size: cover;
-    background-position: center;
-}
 
 .grid-item3:nth-child(4){
     grid-column: 3 / span 2;
@@ -663,8 +662,8 @@ h5{
     border-radius: 15px;
 }
 
-.grid-item3.red h8{
-    font-size: 16px;
+.grid-item3.red h12{
+    font-size: 18px;
     color: white;
     text-align: center;
     display: block;
@@ -675,7 +674,7 @@ h5{
 }
 
 .grid-item3.red p{
-    font-size: 14px;
+    font-size: 16px;
     color: white;
     padding: 10px;
     margin: 0px;
@@ -1082,6 +1081,7 @@ p{
     font-family: 'Quicksand', sans-serif;
     padding: 20px 40px;
     color: white;
+    font-weight: lighter;
 }
 
 /*Menu-page*/
@@ -1250,9 +1250,10 @@ h5{
 
 .grid-item3:nth-child(1){
     grid-column: 1 / span 4;
-    grid-row: 1 / span 2;
+    grid-row: 1/ span 2;
     border-radius: 15px;
     text-align: center;
+
     
 }
 
@@ -1262,13 +1263,11 @@ h5{
     border-radius: 15px;
 }
 
-.grid-item3:nth-child(3){
-    grid-column:  1 / span 1;
-    grid-row: 1 / span 1;
-    border-radius: 15px;
-    background-size: cover;
-    background-position: center;
+.grid-item3.yellow{
+    display:none;
 }
+
+
 
 .grid-item3:nth-child(4){
     grid-column: 1 / span 4;
@@ -1280,6 +1279,7 @@ h5{
     grid-column: 1 / span 4;
     grid-row: 6 / span 1;
     border-radius: 15px;
+    margin-top: 20px;
 
 
     
@@ -1404,7 +1404,7 @@ h8 span{
 .menu-content p{
     text-align: left;
     color: white;
-    font-size: 18px;
+    font-size: 16px;
     padding-left: 0px;
     font-weight: lighter;
     font-family: 'Quicksand', sans-serif;
