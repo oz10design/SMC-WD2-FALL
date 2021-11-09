@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Intro to JavaScript</title>
+
+        
+
+        <style>
+
+            #TopH{
+                background-color: rgb(53, 53, 53);
+                text-align: center;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                color: white;
+            }
+
+            #blue{
+                background-color: teal;
+                height: 300px;
+                border-radius: 30px;
+            }
+
+            #gray{
+                background-color: gray;
+                height: 300px;
+                border-radius: 30px;
+                margin-top: 40px;
+            }
+
+            #button1{
+                position: absolute; 
+                left: 50%;
+                transform: translate(-50%);
+                margin-top: 5px;
+                border-radius: 10px;
+                font-size: 20px;
+                cursor: pointer;
+            }
+
+            #button2{
+                position: absolute; 
+                left: 50%;
+                transform: translate(-50%);
+                margin-top: 5px;
+                border-radius: 10px;
+                font-size: 20px;
+                cursor: pointer;
+            }
+
+            
+        </style>
+    </head>
+    <body>
+        <h1 id="TopH">Intro to JavaScript</h1>
+
+
+        <section>
+            
+            <div id="blue"></div>
+            <button role="button" id="button1">Click Me</button>
+            
+            <div id="gray"></div>
+            <button role="button" id="button2">Click Me</button>
+            
+
+        </section>
+
+
+
+        <script>
+
+
+            let answer = prompt("What's your name" , "");
+
+
+            let b1 = document.getElementById("button1");
+            let blue = document.getElementById("blue");
+            
+            let b2 = document.getElementById("button2");
+            let gray = document.getElementById("gray");
+
+        
+
+
+
+           
+            console.log(document.getElementById("TopH"));
+            console.log(answer);
+
+            document.getElementById("TopH").style.backgroundColor="black";
+            document.getElementById("TopH").innerText = document.getElementById
+            ("TopH").innerText + " Welcome," + answer;
+            TopH.style.borderRadius = "30px";
+            TopH.style.fontStyle = "italic";
+            TopH.style.fontWeight = "lighter";
+            
+            b1.addEventListener("click", function(){
+                blue.style.backgroundColor = "rgb(180, 140, 80)";
+                let notification = document.createElement("h5");
+                notification.innerText = "Hello World";
+                blue.appendChild(notification);
+                blue.style.color = "white";
+                blue.style.textAlign = "center";
+                blue.style.fontSize = "30px";
+                blue.style.paddingTop = "15px";
+            })
+
+            b2.addEventListener("click", function(){
+                gray.style.backgroundColor = "rgb(100, 100, 60)";
+                let notification = document.createElement("h5");
+                notification.innerText = "LoremLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsum";
+                gray.appendChild(notification);
+                gray.style.color = "white";
+                gray.style.textAlign = "center";
+                gray.style.fontSize = "30px";
+                gray.style.paddingTop = "15px";
+                gray.style.columns = "100px 2";
+                
+            })
+
+            
+          
+
+        </script>
+        
+    </body>
+</html>
