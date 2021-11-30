@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom manipulation</title>
+    <style>
+        #container{
+            height: 600px;
+            display: flex;
+            align-content: center;
+        }
+
+        .presentation{
+            height: 150px;
+            margin-left: 50px;
+            border-radius: 10px;
+        }
+
+        .presentation1{
+            height: 400px;
+            margin-top: -350px;
+        }
+
+        img{
+            height: 150px;
+        }
+
+        #imageShowcase{
+            background-image: url(https://image.shutterstock.com/image-photo/pair-pink-sport-shoes-on-260nw-228691018.jpg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: contain;
+            background-color: rgb(120, 120, 20);
+        }
+
+        #mainbox{
+            font-size: 24px;
+            cursor: pointer;
+            transition: all .6s;
+        }
+
+        .sidemenu{
+            position: fixed;
+            top: 0px;
+            left: opx;
+            height: 100%;
+            width: 0px;
+            background-color: #222;
+            z-index: 1;
+            padding-top: 100px;
+            overflow-x: hidden;
+            transition: all .5s;
+        }
+
+        .sidemenu a{
+            padding: 8px 8px 8px 64px;
+            text-decoration: none;
+            font-size: 20px;
+            color: #999;
+            display: block;
+        }
+
+        .sidemenu a:hover{
+            color: white;
+        }
+
+        .sidemenu .closeBtn{
+            position: absolute;
+            top: 0px;
+            right: 25px;
+            font-size: 36px;
+            margin-left: 32px;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="mainbox" onclick="openFunction()">&#9776; Open</div>
+    <div id="menu" class="sidemenu">
+        <a href="#">Image1</a>
+        <a href="#">Image2</a>
+        <a href="#">Image3</a>
+        <a href="#">Image4</a>
+        <a href="#" class="closeBtn" onclick="closeFunction(">&times;</a>
+    </div>
+    <main>
+
+        <section>
+            <div id="container">
+            <div class="presentation">
+                <img src="classy.jpg" alt="1st image" id="toggleImage">
+            
+            <button id="imageToggle">show the second one</button></div>
+       
+
+        <div class="presentation">
+            <img src="classy.jpg" alt="1st image" id="toggleImage">
+        
+        <button id="imageToggle">show the second one</button></div>
+    
+
+    <div class="presentation">
+        <img src="classy.jpg" alt="1st image" id="toggleImage">
+  
+    <button id="imageToggle">show the second one</button></div>
+
+
+<div class="presentation">
+    <img src="classy.jpg" alt="1st image" id="toggleImage">
+
+<button id="imageToggle">show the second one</button></div>
+</div>
+</section>
+
+       
+
+        <section>
+            <div class="presentation1" id="imageShowcase">
+
+            </div>
+            <button id="img1">new image1</button>
+            <button id="img2">new image2</button>
+            <button id="img3">new image3</button>
+            <button id="img4">new image4</button>
+        </section>
+    </main>
+    <script src="script.js"></script>
+    <script type="text/javascript">
+    function openFunction(){
+        document.getElementById("menu").style.width = "300px";
+        document.getElementById("mainbox").innerHTML="Click on Cross Element and Close Menu";
+    }
+
+    function closeFunction(){
+        document.getElementById("menu").style.width="0px";
+        document.getElementById("mainbox").style.marginLeft="0px";
+        document.getElementById("mainbox").innerHTML="&#9776; Open";
+    }
+    </script>
+</body>
+</html>
