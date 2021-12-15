@@ -3,7 +3,8 @@
 body{
     padding: 0;
     margin: 0;
-    background-color: rgb(180, 230, 245);
+    background-image: url(../Final-project-structure/wall.jpg);
+    
 
 }
 
@@ -112,9 +113,10 @@ h1{
 .don-btn{
    width: 100px;
    top: 50%;
-   left: 10%;
+   left: 40%;
    cursor: pointer;
    text-decoration: none;
+   text-align: center;
 }
 
 
@@ -148,25 +150,28 @@ h8{
     margin-top: 70px;
 }
 
+
 .boxread {
     width: 100%;
     height: 200px;
-    background-color: rgb(54, 127, 156);
     margin-bottom: 70px;
     border-radius: 20px;
+    box-shadow: 0 0 1rem rgba(0,0,0,.1);
 }
 .boxread p{
     margin-left: auto;
     font-size: 20px;
+    background-color: rgb(54, 127, 156);
 
-}
-
-.moreText{
-    display: none;
 }
 
 .read-more-btn{
     cursor: pointer;
+    color: white;
+}
+
+#more{
+    display: none;
 }
 
 .boxread button{
@@ -295,21 +300,26 @@ h2{
 .aboutbox{
     width: 100%;
     height: 350px;
-    background-color: rgb(54, 127, 156);
+    padding-top:30px;
 }
 .aboutbox p{
     font-size: 20px;
+    background-color: rgb(54, 127, 156);
+    border-radius: 20px;
 }
 
 .boxread1 {
     width: 100%;
     height: 200px;
     margin-bottom: 70px;
+    margin-left: 0px;
 }
 .boxread1 p{
-    color: rgb(54, 127, 156);
-    margin-left: -30px;
-    font-size: 30px;
+    color: rgb(253, 253, 253);
+    
+    font-size: 20px;
+    background-color: rgb(54, 127, 156);
+    border-radius: 30px;
 }
 
 .boxread1 button{
@@ -349,7 +359,8 @@ h22{
 .boxread15 p{
     color: rgb(54, 127, 156);
     margin-left: -30px;
-    font-size: 30px;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .boxread16 {
@@ -366,7 +377,13 @@ h22{
 }
 
 .boxread16 h40{
-    color: black;
+    color: white;
+}
+
+#myBtn{
+    margin-left: 40px;
+    height: 30px;
+    border-radius: 20px;
 }
 
 
@@ -392,6 +409,7 @@ h3{
     margin-left: 0px;
     font-size: 25px;
     margin-top: -60px;
+    font-weight: bolder;
 }
 
 .about2{
@@ -450,11 +468,6 @@ h20{
 /*Get Involved-page-settings-end(for desktop)*/
 
 /*Contact-page-settings(for desktop)*/
-
-h4{
-    font-family: 'Quicksand',sans-serif;
-    font-size: 30px;
-}
 
 .about3{
     width: 100%;
@@ -574,6 +587,96 @@ p{
     margin: 200px 10%;
 }
 
+/*donation-page-settings(for desktop)*/
+
+.wrapper1{
+    background-color: rgb(54, 127, 156);
+    width: 500px;
+    padding: 5px;
+    margin: 15px auto 40px;
+    box-shadow: 0px 0px 20px rgba(0,0,0,0.5);
+    border-radius: 10px;
+}
+
+.wrapper1 h2{
+    color: white;
+    font-size: 24px;
+    padding: 0px 0px 0px;
+    margin-bottom: -20px;
+    text-align: center;
+    
+    
+}
+
+.wrapper1 h44{
+    padding-bottom: 5px;
+    color: white;
+}
+
+.input-group{
+    margin-bottom: 8px;
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    padding: 5px 0;
+}
+
+.input-box{
+    width: 100%;
+    margin-right: 12px;
+    position: relative;
+}
+
+.input-box:last-child{
+    margin-right: 0;
+}
+
+.input-box .name{
+    padding: 14px 0px 14px 0px;
+    width: 100%;
+    background-color: white;
+    border: 1px solid gray;
+    outline: none;
+    letter-spacing: 1px;
+    transition: 0.3s;
+    border-radius: 3px;
+    color: darkgray;
+}
+
+.input-box .name:focus{
+    -webkit-box-shadow: 0 0 2px 1px rgb(54, 127, 156);
+    -moz-box-shadow: 0 0 2px 1px rgb(54, 127, 156);
+    box-shadow: 0 0 2px 1px rgb(54, 127, 156);
+    border: 1px solid rgb(54, 127, 156);
+}
+
+.name:focus{
+    background-color: rgb(144, 197, 218);
+    color: white;
+    border: 1px solid rgb(144, 197, 218);
+    border: none;
+    transition: 1s;
+}
+
+.radio{
+    display: none;
+}
+
+.input-box button{
+    width: 100%;
+    background-color: white;
+    color: rgb(54, 127, 156);
+    border-radius: 10px;
+    transition: all 0.3s ease;
+}
+
+.input-box button:hover{
+    cursor: pointer;
+    background-color: rgb(20, 60, 78);
+}
+
+/*thank-you-pop-up*/
 
 
 
@@ -666,6 +769,7 @@ p{
         font-weight: normal;
         font-size: 47px;
         margin-top: 70px;
+        margin-left: auto;
     }
 
     .don-btn{
@@ -855,56 +959,64 @@ p{
 
     h3{
         width: 100%;
-        height: 150px;
-        margin-top: 100px;
-        color: black;
-        font-family: 'Quicksand', sans-serif;
-        padding-top: 40px;
-        font-size: 40px;
-        margin-left:20px;
+    height: 150px;
+    margin-top: 100px;
+    color: #fffefd;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-top: 40px;
+    font-size: 60px;
+    text-shadow: 2px 2px rgb(54, 127, 156);
+    margin-left: 20px;
+    }
+
+    .gtext{
+        color: rgb(54, 127, 156);
+        margin-left: 0px;
+        font-size: 25px;
+        margin-top: 20px;
     }
     
-    h3 p{
-        color: black;
-        margin-left: -30px;
-        
-    }
 
     .about2{
         width: 100%;
         height: 250px;
-        background-color: rgb(5, 5, 5);
-        margin-top: 150px;
+        background-color: rgb(54, 127, 156);
+        margin-top: 10px;
     }
     
     .about2 p{
         color: rgb(252, 250, 250);
-        font-size: 20px;
+        font-size: 15px;
     }
     
     .about2 button{
-        font-size: 16px;
+        font-size: 14px;
+        float: right;
+        margin-right: 0px;
+       
     }
-
+    
     h20{
         color: rgb(253, 253, 253);
         text-transform: capitalize;
         padding: 20px;
         margin-top: 10px;
-        font-size: 25px;
+        font-size: 35px;
         font-family: 'Quicksand', sans-serif;
-        font-weight: bold;
+        font-weight: bolder;
     }
     
     .boxread2 {
         width: 100%;
         height: 200px;
-        background-color: rgb(2, 2, 2);
-        margin-bottom: 70px;
+        border-radius: 20px;
+        margin-bottom: 0px;
+        margin-top: 200px;
     }
     .boxread2 p{
-        color: rgb(253, 252, 252);
+        color: rgb(255, 254, 254);
         margin-left: -30px;
+        font-size: 20px;
     
     }
     
@@ -915,29 +1027,29 @@ p{
     .rev-box1{
         width: 100%;
         height: 600px;
-        background-color: rgb(0, 0, 0);
+        background-color: rgb(54, 127, 156);
+        margin-top: 200px;
     }
 
     /*Get Involved-page-settings-end(for mobile)*/
 
     /*Contact-page-settings(for mobile)*/
 
-    h4{
-        font-family: 'Quicksand',sans-serif;
-        font-size: 30px;
-    }
 
     .about3{
         width: 100%;
-        height: 250px;
-        background-color: rgb(2, 2, 2);
-        margin-top: -110px;
+        height: 150px;
+        margin-top: 80px;
     }
     
     .about3 p{
         color: rgb(253, 251, 251);
         font-size: 30px;
         font-family: 'Quicksand', sans-serif;
+    }
+
+    .about3 img{
+        width: 100%;
     }
 
     /*Contact-page-settings-end(for mobile)*/
