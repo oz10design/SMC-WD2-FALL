@@ -3,7 +3,7 @@
 body{
     padding: 0;
     margin: 0;
-    background-color: #d5f3f8;
+    background-color: rgb(241, 252, 235);
     
 
 }
@@ -12,9 +12,9 @@ body{
 
 nav{
     position: fixed;
-    font-family: 'Quicksand', sans-serif;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
     height: 100px;
-    background-color: #39afc4;
+    background-color: #82bb76;
     z-index: 10;
     left: 0;
     right: 0;
@@ -50,10 +50,9 @@ nav .links li{
 nav .links a{
     display: block;
     padding: 1em;
-    font-size: 27px;
-    color: #fdfcfc;
+    font-size: 17px;
+    color: #ffffff;
     text-decoration: none;
-    font-weight: bolder;
 }
 
 #nav-toggle {
@@ -82,20 +81,24 @@ nav .icon-burger .line{
 /*Landing-page-settings(for desktop)*/
 
 h1{
-    text-align:left;
-    color: #050505;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align:center;
+    color: #7db85c;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
     font-weight: regular;
     padding-top: 20px;
-    font-size: 60px;
+    font-size: 40px;
     margin-left: 20px;
     text-transform: capitalize;
+}
+.contain{
+    width: 100%;
+    height:auto;
+    padding-top: 300px;
 }
 
 .slideshow{
     width: 100%;
-    height: 1000px;
-    max-height: 1200px;
+    height: 400px;
     background-size: cover;
     background-position: center;
     margin-top: 10px;
@@ -107,29 +110,25 @@ h1{
 }
 
 .don-btn{
-    width: 200px;
-    height: 70px;
-    cursor: pointer;
-    text-align: center;
-    border-radius: 30px;
-    color: white;
-    background-color: rgb(54, 127, 156);;
-    border: none;
+   width: 100px;
+   top: 50%;
+   left: 40%;
+   cursor: pointer;
+   text-decoration: none;
+   text-align: center;
 }
 
 
 .slideshow img{
     width: 100%;
-    height: 00px;
+    height: 500px;
 }
 
 h8{
-    color: rgb(54, 127, 156);
+    color: white;
     font-size: 80px;
     text-align: left;
     margin-top: 80px;
-    font-family: 'montserrat', sans-serif;
-    text-shadow: 2px 2px white;;
 
 }
 
@@ -141,14 +140,14 @@ h8{
 }
 
 .about p{
-    color: rgb(54, 127, 156);
+    color: #7db85c;
     text-align: left;
     font-weight: lighter;
-    font-family: 'Montserrat', sans-serif;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: normal;
-    font-size: 77px;
+    font-size: 57px;
     margin-top: 70px;
-    text-align: center;
+    text-transform: capitalize;
 }
 
 
@@ -162,7 +161,9 @@ h8{
 .boxread p{
     margin-left: auto;
     font-size: 20px;
-    background-color: rgb(54, 127, 156);
+    color: black;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
 
 }
 
@@ -177,9 +178,6 @@ h8{
 
 .boxread button{
     margin-left: 40px;
-        background-color: #d5f3f8;
-        border: 5px solid white;
-        margin-top: 20px;
 }
 
 .boxread p .show-more .moreText{
@@ -190,7 +188,7 @@ h8{
 
     width: 100%;
     height: 150px;
-    background-color: rgb(54, 127, 156);
+    background-color: #82bb76;;
     margin-top: 20px;
 }
 
@@ -215,54 +213,53 @@ h7{
     padding: 80px 20px;
     margin-top: 10px;
     font-size: 45px;
-    font-family: 'Quicksand', sans-serif;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 h40{
-    color: rgb(54, 127, 156);
+    color: rgb(2, 2, 2);
     text-transform: capitalize;
     padding: 80px 20px;
     margin-top: 10px;
     font-size: 25px;
-    font-family: 'Montserrat', sans-serif;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: lighter;
 }
 
 h41{
-    color: rgb(54, 127, 156);
+    color: rgb(2, 2, 2);
     text-transform: capitalize;
     padding: 80px 0px;
     margin-top: 10px;
     font-size: 25px;
-    font-family: 'Montserrat', sans-serif;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: lighter;
 }
 
 .box-opt p{
     font-size: 24px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
 }
 
 .boxTrio{
     width: 300px;
     height: 500px;
     float: left;
-    margin-left: 60px;
-}
-
-.container-box{
-    width: 100%;
-    height: 400px;
     background-color: black;
+    margin: 20px 20px;
 }
 
 .text2{
     font-size: 20px;
-    color: rgb(54, 127, 156);
+    color: rgb(30, 30, 31);
     font-weight: bolder;
 }
 
 footer{
     width: 100%;
     height:60px;
-    background-color: #39afc4;
+    background-color: #82bb76;
     margin-top: 60px;
     text-align: center;
     float: left;
@@ -292,23 +289,18 @@ h2{
     width: 100%;
     height: 150px;
     margin-top: 100px;
-    color: #030303;
+    color: #fffefd;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     padding-top: 40px;
-    font-size: 90px;
+    font-size: 60px;
+    text-shadow: 2px 2px rgb(54, 127, 156);
     margin-left: 20px;
-    text-align: center;
 }
 
 .about1{
     width: 100%;
     height: 600px;
     margin-top: -90px;
-    margin-bottom: 590px;
-}
-
-.about1 img{
-    width: 100%;
 }
 
 .aboutbox{
@@ -317,23 +309,21 @@ h2{
     padding-top:30px;
 }
 .aboutbox p{
-    height: auto;
-    font-size: 40px;
+    font-size: 20px;
     background-color: rgb(54, 127, 156);
     border-radius: 20px;
 }
 
 .boxread1 {
     width: 100%;
+    height: 200px;
     margin-bottom: 70px;
     margin-left: 0px;
-    height: 350px;
-    padding-top:30px;
 }
 .boxread1 p{
     color: rgb(253, 253, 253);
     
-    font-size: 40px;
+    font-size: 20px;
     background-color: rgb(54, 127, 156);
     border-radius: 30px;
 }
@@ -343,32 +333,26 @@ h2{
 }
 
 .rev-box{
-    width: 720px;
-    max-width: 100%;
+    width: 300px;
     height: 500px;
     float: left;
     background-color: black;
-    margin: 20px 40px;
+    margin: 20px 25px;
     border-radius: 20px;
-    margin-bottom: 800px;
 
 }
 
 .rev-box img{
-    width: 100%;
     border-radius: 20px;
-}
-
-.contain1{
-    margin-top: 1400px;
 }
 
 h22{
     width: 100%;
     margin-top: 90px;
-    color: #050505;
+    color: #fffefd;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 60px;
+    text-shadow: 2px 2px rgb(54, 127, 156);
     margin-left: 20px;
     margin-bottom: 40px;
 }
@@ -376,12 +360,12 @@ h22{
 .boxread15 {
     width: 100%;
     height: 200px;
-    margin-bottom: 0px;
+    margin-bottom: 800px;
 }
 .boxread15 p{
     color: rgb(54, 127, 156);
-    margin-left: 0px;
-    font-size: 40px;
+    margin-left: -30px;
+    font-size: 20px;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -399,23 +383,13 @@ h22{
 }
 
 .boxread16 h40{
-    color: rgb(0, 0, 0);
-    font-size: 25px;
-}
-
-h40{
-    font-size: 25px;
+    color: white;
 }
 
 #myBtn{
     margin-left: 40px;
-        background-color: #d5f3f8;
-        border: 5px solid white;
-        margin-top: 20px;
-        border-radius: 20px;
-        height: 80px;
-        width: 160px;
-        font-size: 20px;
+    height: 30px;
+    border-radius: 20px;
 }
 
 
@@ -428,23 +402,20 @@ h3{
     width: 100%;
     height: 150px;
     margin-top: 100px;
-    color: #020202;
+    color: #fffefd;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     padding-top: 40px;
-    font-size: 90px;
+    font-size: 60px;
     text-shadow: 2px 2px rgb(54, 127, 156);
     margin-left: 20px;
-    text-align: center;
-    margin-bottom: 200px;
 }
 
 .gtext{
     color: rgb(54, 127, 156);
     margin-left: 0px;
-    font-size: 45px;
+    font-size: 25px;
     margin-top: -60px;
     font-weight: bolder;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .about2{
@@ -456,7 +427,7 @@ h3{
 
 .about2 p{
     color: rgb(252, 250, 250);
-    font-size: 35px;
+    font-size: 25px;
 }
 
 .about2 button{
@@ -470,8 +441,8 @@ h20{
     text-transform: capitalize;
     padding: 20px;
     margin-top: 10px;
-    font-size: 65px;
-    font-family: 'montserrat', sans-serif;
+    font-size: 55px;
+    font-family: 'Quicksand', sans-serif;
     font-weight: bolder;
 }
 
@@ -480,17 +451,13 @@ h20{
     width: 100%;
     height: 200px;
     border-radius: 20px;
-    margin-bottom: 1080px;
+    margin-bottom: 70px;
 }
 .boxread2 p{
     color: rgb(255, 254, 254);
     margin-left: -30px;
-    font-size: 90px;
+    font-size: 20px;
 
-}
-
-.boxread2 img{
-    width: 100%;
 }
 
 .boxread2 button{
@@ -510,20 +477,15 @@ h20{
 
 .about3{
     width: 100%;
-    max-width: 4000px;
     height: 450px;
+    background-color: rgb(2, 2, 2);
     margin-top: -110px;
-    margin-bottom: 460px;
 }
 
 .about3 p{
     color: rgb(253, 251, 251);
     font-size: 30px;
     font-family: 'Quicksand', sans-serif;
-}
-
-.about3 img{
-    width: 100%;
 }
 
 /*Contact-page-settings-end(for desktop)*/
@@ -541,7 +503,7 @@ h20{
     margin-right: auto;
     margin-left: auto;
     display: block;
-    background-color: black;
+    background-color: rgb(255, 255, 255);
 }
 
 
@@ -587,7 +549,10 @@ h21{
     font-family: 'Quicksand', sans-serif;;
 }
 
-
+.about2 p{
+    color: rgb(253, 252, 252);
+    font-size: 20px;
+}
 
 .about2 button{
     font-size: 16px;
@@ -765,14 +730,15 @@ p{
     /*Landing-page-settings(mobile settings)*/
 
     h1{
-    text-align: center;
-    color: #030303;
+        text-align:center;
+        color: #7db85c;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-weight: regular;
     padding-top: 20px;
-    font-size: 50px;
-    margin-left:  0px;
+    font-size: 60px;
+    margin-left: 20px;
     text-transform: capitalize;
+    text-shadow: 2px 2px rgb(54, 127, 156);
     }
 
 
@@ -802,43 +768,40 @@ p{
     }
     
     .about p{
-        color: rgb(54, 127, 156);
+        color: #7db85c;
         text-align: left;
         font-weight: lighter;
-        font-family: 'Montserrat', sans-serif;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         font-weight: normal;
-        font-size: 37px;
+        font-size: 57px;
         margin-top: 70px;
         margin-left: auto;
     }
 
     .don-btn{
-        width: 200px;
-        height: 70px;
+        width: 100px;
+        top: 50%;
+        left: 10%;
         cursor: pointer;
-        text-align: center;
-        border-radius: 30px;
-        color: white;
-        background-color: rgb(54, 127, 156);;
-        border: none;
+        text-decoration: none;
      }
 
     h8{
-        color: rgb(54, 127, 156);
-        font-size: 45px;
+        color: white;
+        font-size: 50px;
         text-align: left;
         margin-top: 80px;
-        font-family: 'montserrat', sans-serif;
+        font-family: 'Quicksand', sans-serif;
+        
         font-weight: bolder;
-        text-shadow: 2px 2px white;
     
     }
 
     .boxread {
         width: 100%;
         height: 200px;
-        background-color: rgb(54, 127, 156);
-        margin-bottom: 170px;
+        color: #7db85c;
+        margin-bottom: 70px;
     }
 
     .moreText{
@@ -853,27 +816,26 @@ p{
     .boxread p{
         margin-left: auto;
         font-size: 16px;
-        margin-bottom: auto;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     
     }
     
     .boxread button{
         margin-left: 40px;
-        background-color: #d5f3f8;
-        border: 5px solid white;
-        margin-top: 20px;
     }
 
     .box-opt{
 
         width: 100%;
         height: 150px;
-        background-color: rgb(54, 127, 156);
+        color: #7db85c;
         margin-top: 20px;
     }
 
     .box-opt p{
         font-size: 14px;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
     }
     
     .button .text{
@@ -902,11 +864,7 @@ p{
     .contain{
         width: 100%;
         height:auto;
-        padding-top: 3050px;
-    }
-
-    .contain h1{
-        margin-top: 40px;
+        padding-top: 3300px;
     }
 
     /*Landing-page-settings-end(for mobile)*/
@@ -917,10 +875,11 @@ p{
         width: 100%;
         height: 150px;
         margin-top: 100px;
-        color: black;
+        color: #fffefd;
         font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
         padding-top: 40px;
         font-size: 60px;
+        text-shadow: 2px 2px rgb(54, 127, 156);
         margin-left: 20px;
     }
 
@@ -933,34 +892,29 @@ p{
 
     .aboutbox{
         width: 100%;
-        height: 420px;
+        height: 680px;
+        background-color: rgb(54, 127, 156);
         margin-top: -390px;
         border-radius: 30px;
-        margin-bottom: auto;
     }
     .aboutbox p{
-        font-size: 18px;
-        background-color: rgb(54, 127, 156);
+        font-size: 20px;
     }
 
     .boxread1 {
         width: 100%;
-        height: 600px;
-        margin-top: -60px;
-        border-radius: 30px;
+        height: 200px;
+        margin-bottom: 310px;
 
     }
     .boxread1 p{
-        color: rgb(253, 253, 253);
+        color: rgb(54, 127, 156);
         margin: auto;
         font-size: 25px;
     }
     
     .boxread1 button{
-        margin-left: 40px;
-        background-color: #d5f3f8;
-        border: 5px solid white;
-        margin-top: 20px;
+        margin-left: 10px;
     }
 
     .rev-box{
@@ -1008,14 +962,6 @@ p{
         padding-top: 300px;
     }
 
-    #myBtn{
-        margin-left: 40px;
-        background-color: #d5f3f8;
-        border: 5px solid white;
-        margin-top: 20px;
-        margin-bottom: 90px;
-    }
-
     /*About-page-settings-end(for mobile)*/
     
     /*Get Involved-page-settings(for mobile)*/
@@ -1024,7 +970,7 @@ p{
         width: 100%;
     height: 150px;
     margin-top: 100px;
-    color: #020202;
+    color: #fffefd;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     padding-top: 40px;
     font-size: 60px;
@@ -1102,7 +1048,7 @@ p{
     .about3{
         width: 100%;
         height: 150px;
-        margin-top: 180px;
+        margin-top: 80px;
     }
     
     .about3 p{
@@ -1116,90 +1062,6 @@ p{
     }
 
     /*Contact-page-settings-end(for mobile)*/
-
-    /*donation-page-settings(for desktop)*/
-
-.wrapper1{
-    background-color: rgb(54, 127, 156);
-    width: 100%;
-    padding: 0px 40px 0px 40px;
-    border-radius: 10px;
-}
-
-.wrapper1 h2{
-    color: white;
-    font-size: 20px;
-    margin-bottom: -0px;
-    text-align: center;
-}
-
-.wrapper1 h44{
-    padding-bottom: 5px;
-    color: white;
-    margin: auto;
-}
-
-.input-group{
-    margin-bottom: 8px;
-    width: 100%;
-    position: relative;
-    
-    padding: 5px 0;
-}
-
-.input-box{
-    width: 100%;
-    margin-right: 0px;
-    position: relative;
-}
-
-.input-box:last-child{
-    margin-right: 0;
-}
-
-.input-box .name{
-    padding: 14px 0px 14px 0px;
-    width: 100%;
-    background-color: white;
-    border: 1px solid gray;
-    outline: none;
-    letter-spacing: 1px;
-    transition: 0.3s;
-    border-radius: 3px;
-    color: darkgray;
-}
-
-.input-box .name:focus{
-    -webkit-box-shadow: 0 0 2px 1px rgb(54, 127, 156);
-    -moz-box-shadow: 0 0 2px 1px rgb(54, 127, 156);
-    box-shadow: 0 0 2px 1px rgb(54, 127, 156);
-    border: 1px solid rgb(54, 127, 156);
-}
-
-.name:focus{
-    background-color: rgb(144, 197, 218);
-    color: white;
-    border: 1px solid rgb(144, 197, 218);
-    border: none;
-    transition: 1s;
-}
-
-.radio{
-    display: none;
-}
-
-.input-box button{
-    width: 100%;
-    background-color: white;
-    color: rgb(54, 127, 156);
-    border-radius: 10px;
-    transition: all 0.3s ease;
-}
-
-.input-box button:hover{
-    cursor: pointer;
-    background-color: rgb(20, 60, 78);
-}
 
 
     
@@ -1306,7 +1168,7 @@ p{
     bottom: 0;
     opacity: 0;
     transition: opacity 100% ease-in;
-    background: black;
+    background: rgb(252, 252, 252);
     color: white;
     top: 50%;
     left: 50%;
