@@ -713,29 +713,41 @@ p{
 
 /*donation-page-settings(for desktop)*/
 
-.wrapper1{
+.wrapper11{
     background-color: rgb(54, 127, 156);
-    width: 100%;
+    float: left;
+    width: 90%;
     height: 100%;
     padding: 5px;
-    margin: 15px auto 40px;
+    margin: 15px 5%;
     box-shadow: 0px 0px 20px rgba(0,0,0,0.5);
     border-radius: 10px;
+    padding-top: 80px;
 }
 
-.wrapper1 h2{
+
+.wrapper11 h23{
     color: white;
-    font-size: 24px;
-    padding: 0px 0px 0px;
-    margin-bottom: -20px;
+    font-size: 64px;
+    padding-bottom: 20px;
     text-align: center;
+    margin-left: 35%;
+    font-family: 'Montserrat', sans-serif;
     
     
 }
 
-.wrapper1 h44{
+form{
+    margin-top: 40px;
+    padding: 20px 190px 120px 190px;
+}
+
+.wrapper11 h44{
+    margin-top: 800px;
     padding-bottom: 5px;
     color: white;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .input-group{
@@ -751,6 +763,7 @@ p{
     width: 100%;
     margin-right: 12px;
     position: relative;
+    
 }
 
 .input-box:last-child{
@@ -767,6 +780,11 @@ p{
     transition: 0.3s;
     border-radius: 3px;
     color: darkgray;
+    border-radius: 10px;
+}
+
+.input-box text{
+    padding-left: 200px;
 }
 
 .input-box .name:focus{
@@ -801,15 +819,83 @@ p{
     background-color: rgb(20, 60, 78);
 }
 
+label{
+    color: white;
+}
+
+#submit input, button{
+    background-color: rgb(253, 253, 253);
+    border-radius: 20px;
+    width: 25%;
+    height: 40px;
+    left: 50%;
+}
+
 
 /*thank-you-pop-up*/
 
+.donation-form {
+    width: 900px;
+    top: 50%;
+    left:10%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(20, 60, 78);
+    margin-bottom: -400px;
+    
+}
+
+.donationn-form h29{
+    font-size: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 10px 0;
+    margin-top: 260px;
+    padding-top: 20px;
+    color: white;
+
+}
+
+.donation-form p {
+    font-size: 25px;
+    margin: 15px 0;
+    
+}
+
+.donation-form input {
+    font-size: 20px;
+    padding: 15px 10px;
+    width: 100%;
+    border: 0;
+    border-radius: 5px;
+    outline: none;
+
+}
+
+.donation input, button{
+    background-color: white;
+    color: rgb(3, 3, 3);
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.donation-form button{
+    width: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 20px 0;
+    background-color: white;
+}
 
 
 .donation-container{
     width: 100%;
     height: 700px;
     margin-top: 1100px;
+}
+
+.donation-section{
+    width: 100px;
+    height: 100px;
 }
 
 
@@ -1283,89 +1369,129 @@ p{
 
     /*Contact-page-settings-end(for mobile)*/
 
-    /*donation-page-settings(for desktop)*/
+    /*donation-page-settings(for mobile)*/
 
-.wrapper1{
-    background-color: rgb(54, 127, 156);
-    width: 100%;
-    padding: 0px 40px 0px 40px;
-    border-radius: 10px;
-}
-
-.wrapper1 h2{
-    color: white;
-    font-size: 20px;
-    margin-bottom: -0px;
-    text-align: center;
-}
-
-.wrapper1 h44{
-    padding-bottom: 5px;
-    color: white;
-    margin: auto;
-}
-
-.input-group{
-    margin-bottom: 8px;
-    width: 100%;
-    position: relative;
+    .wrapper11{
+        background-color: rgb(54, 127, 156);
+        float: left;
+        width: 90%;
+        height: 100%;
+        padding: 5px;
+        margin: 15px 5%;
+        box-shadow: 0px 0px 20px rgba(0,0,0,0.5);
+        border-radius: 10px;
+        padding-top: 80px;
+    }
     
-    padding: 5px 0;
-}
+    
+    .wrapper11 h23{
+        color: white;
+        font-size: 34px;
+        padding-bottom: 20px;
+        text-align: center;
+        margin-left: 20%;
+        font-family: 'Montserrat', sans-serif;
+        
+        
+    }
+    
+    form{
+        margin-top: 40px;
+        padding: 20px 10px 50px 10px;
+    }
+    
+    .wrapper11 h44{
+        margin-top: 800px;
+        padding-bottom: 5px;
+        color: white;
+        font-size: 20px;
+        font-family: 'Montserrat', sans-serif;
+    }
+    
+    .input-group{
+        margin-bottom: 8px;
+        width: 100%;
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        padding: 5px 0;
+    }
+    
+    .input-box{
+        width: 100%;
+        margin-right: 12px;
+        position: relative;
+        
+    }
+    
+    .input-box:last-child{
+        margin-right: 0;
+    }
+    
+    .input-box .name{
+        padding: 14px 0px 14px 0px;
+        width: 100%;
+        background-color: white;
+        border: 1px solid gray;
+        outline: none;
+        letter-spacing: 1px;
+        transition: 0.3s;
+        border-radius: 3px;
+        color: darkgray;
+        border-radius: 10px;
+    }
+    
+    .input-box text{
+        padding-left: 200px;
+    }
+    
+    .input-box .name:focus{
+        -webkit-box-shadow: 0 0 2px 1px rgb(54, 127, 156);
+        -moz-box-shadow: 0 0 2px 1px rgb(54, 127, 156);
+        box-shadow: 0 0 2px 1px rgb(54, 127, 156);
+        border: 1px solid rgb(54, 127, 156);
+    }
+    
+    .name:focus{
+        background-color: rgb(144, 197, 218);
+        color: white;
+        border: 1px solid rgb(144, 197, 218);
+        border: none;
+        transition: 1s;
+    }
+    
+    .radio{
+        display: none;
+    }
+    
+    .input-box button{
+        width: 100%;
+        background-color: white;
+        color: rgb(54, 127, 156);
+        border-radius: 10px;
+        transition: all 0.3s ease;
+    }
+    
+    .input-box button:hover{
+        cursor: pointer;
+        background-color: rgb(20, 60, 78);
+    }
+    
+    label{
+        color: white;
+        font-size: 18px;
+        font-family: 'Montserrat', sans-serif;
+    }
+    
+    #submit input, button{
+        background-color: rgb(253, 253, 253);
+        border-radius: 20px;
+        width: 25%;
+        height: 40px;
+        left: 50%;
+        cursor: pointer;
+    }
 
-.input-box{
-    width: 100%;
-    margin-right: 0px;
-    position: relative;
-}
-
-.input-box:last-child{
-    margin-right: 0;
-}
-
-.input-box .name{
-    padding: 14px 0px 14px 0px;
-    width: 100%;
-    background-color: white;
-    border: 1px solid gray;
-    outline: none;
-    letter-spacing: 1px;
-    transition: 0.3s;
-    border-radius: 3px;
-    color: darkgray;
-}
-
-.input-box .name:focus{
-    -webkit-box-shadow: 0 0 2px 1px rgb(54, 127, 156);
-    -moz-box-shadow: 0 0 2px 1px rgb(54, 127, 156);
-    box-shadow: 0 0 2px 1px rgb(54, 127, 156);
-    border: 1px solid rgb(54, 127, 156);
-}
-
-.name:focus{
-    background-color: rgb(144, 197, 218);
-    color: white;
-    border: 1px solid rgb(144, 197, 218);
-    border: none;
-    transition: 1s;
-}
-
-.radio{
-    display: none;
-}
-
-.input-box button{
-    width: 100%;
-    background-color: white;
-    color: rgb(54, 127, 156);
-    border-radius: 10px;
-    transition: all 0.3s ease;
-}
-
-.input-box button:hover{
-    cursor: pointer;
-    background-color: rgb(20, 60, 78);
-}
 
 
     
