@@ -655,6 +655,7 @@ h20{
 
 .about3 img{
     width: 100%;
+    border-radius: 20px;
 }
 
 /*Contact-page-settings-end(for desktop)*/
