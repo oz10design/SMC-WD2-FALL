@@ -57,6 +57,13 @@ nav .links a{
     font-weight: bolder;
 }
 
+a:hover{
+   background-color: transparent;
+   opacity: 0.5;
+   text-decoration: none;
+   color:teal;
+}
+
 #nav-toggle {
     position: absolute;
     top: -100px;
