@@ -29,7 +29,8 @@ nav .logo{
     text-align: center;
     margin-top: 30px;
     font-size: 30px;
-    font-family: 'Quicksand', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
 }
 
 nav .links{
@@ -218,6 +219,19 @@ h8{
     border-radius: 30px;
 }
 
+.box-opt:hover{
+    background-color: black;
+    opacity: 0.9;
+}
+
+.box-opt a:link{
+    text-decoration: none;
+}
+
+.box-opt a:hover{
+    color: rgb(5, 5, 5);
+}
+
 .button .text{
     float: right;
 }
@@ -261,7 +275,8 @@ h41{
 }
 
 .box-opt p{
-    font-size: 24px;
+    font-size: 20px;
+    margin-top: -5px;
 }
 
 .trio-container{
@@ -532,12 +547,34 @@ h3{
     font-family: 'Montserrat', sans-serif;
 }
 
+.about18{
+    width: 100%;
+    height: 600px;
+    margin-top: 85px;
+    margin-bottom: 400px;
+}
+
+.about18 img{
+    width: 100%;
+    border-radius: 20px;
+    margin-top: 50px;
+}
+
 .about2{
     width: 100%;
     height: 250px;
     background-color: rgb(54, 127, 156);
     margin-top: 10px;
     border-radius: 20px;
+}
+
+.about2 a:link{
+    text-decoration: none;
+}
+
+.about2:hover{
+    background-color: black;
+    opacity: 0.9;
 }
 
 .about2 p{
@@ -567,6 +604,7 @@ h20{
     height: 200px;
     border-radius: 20px;
     margin-bottom: 1080px;
+    margin-top: 200px;
 }
 .boxread2 p{
     color: rgb(255, 254, 254);
@@ -898,18 +936,93 @@ h3{
 
 .about-first-box1 p{
     color: rgb(54, 127, 156);
-    font-family: 'quicksand', san serif;
+    font-family: 'Montserrat', san serif;
     font-size: 40px;
     font-weight: bolder;
     margin-top: 100px;
 }
+
+/*Volunteer-page-settings(desktop)*/
+
+.aboutbox10{
+    width: 100%;
+    height: 350px;
+    padding-top:30px;
+    margin-bottom: 350px;
+}
+.aboutbox10 p{
+    height: auto;
+    font-size: 40px;
+    background-color: rgb(54, 127, 156);
+    border-radius: 20px;
+}
+
+.about-first-box2 p{
+    color: rgb(54, 127, 156);
+    font-family: 'Montserrat', san serif;
+    font-size: 80px;
+    font-weight: bolder;
+    margin-top: -210px;
+}
+
+/*Volunteer-page-settings-end(desktop)*/
+
+/*Foster-page-settings(desktop)*/
+
+.aboutbox11{
+    width: 100%;
+    height: 350px;
+    padding-top:30px;
+    margin-bottom: 390px;
+}
+.aboutbox11 p{
+    height: auto;
+    font-size: 40px;
+    background-color: rgb(54, 127, 156);
+    border-radius: 20px;
+}
+
+.about-first-box3 p{
+    color: rgb(54, 127, 156);
+    font-family: 'Montserrat', san serif;
+    font-size: 80px;
+    font-weight: bolder;
+    margin-top: -210px;
+}
+
+/*Foster-page-settings-end(desktop)*/
+
+/*Adopt-page-settings(desktop)*/
+
+.aboutbox12{
+    width: 100%;
+    height: 350px;
+    padding-top:30px;
+    margin-bottom: 390px;
+}
+.aboutbox12 p{
+    height: auto;
+    font-size: 40px;
+    background-color: rgb(54, 127, 156);
+    border-radius: 20px;
+}
+
+.about-first-box4 p{
+    color: rgb(54, 127, 156);
+    font-family: 'Montserrat', san serif;
+    font-size: 80px;
+    font-weight: bolder;
+    margin-top: -210px;
+}
+
+/*Adopt-page-settings-end(desktop)*/
 
 @media screen and (max-width: 768px) {
     nav .logo{
         float: none;
         width: auto;
         justify-content: center;
-        font-family: 'Quicksand', sans-serif;
+        font-family: 'Montserrat', sans-serif;
     }
 
     .logo{
@@ -1014,7 +1127,7 @@ h3{
         background-color: rgb(54, 127, 156);
         position: absolute;
         top: 25%;
-        left: 28%;
+        left: 25%;
         border: 5px solid rgb(252, 253, 253);
         margin-bottom: 10px;
      }
@@ -1077,8 +1190,18 @@ h3{
         border-radius: 30px;
     }
 
+    .box-opt a:link{
+        text-decoration: none;
+    }
+
+    .box-opt:hover{
+        background-color: black;
+        opacity: 0.9;
+    }
+
     .box-opt p{
-        font-size: 18px;
+        font-size: 15px;
+        margin-top: -8px;
     }
     
     .button .text{
@@ -1115,6 +1238,15 @@ h3{
 
     .contain h1{
         margin-top: 40px;
+    }
+
+    h7{
+        color: rgb(255, 254, 254);
+        text-transform: capitalize;
+        padding: 80px 20px;
+        margin-top: 10px;
+        font-size: 40px;
+        font-family: 'Quicksand', sans-serif;
     }
 
 
@@ -1291,6 +1423,18 @@ h3{
         margin-top: -100px;
 
     }
+
+    .about18{
+        width: 100%;
+        height: 0px;
+        margin-top: 0px;
+        border-radius: 30px;
+        margin-bottom: 300px;
+    }
+
+    .about18 img{
+        width: 100%;
+    }
     
 
     .about2{
@@ -1367,6 +1511,17 @@ h3{
         text-transform: capitalize;
         margin-top: 150px;
         margin-bottom: -200px;
+    }
+
+    .about6 p{
+        color: rgb(54, 127, 156);
+        text-align: left;
+        font-weight: lighter;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: normal;
+        font-size: 50px;
+        margin-top: 70px;
+        text-align: center;
     }
 
     .about5 p{
@@ -1737,6 +1892,80 @@ h37{
     margin-top: -100px;
 }
 
+/*Volunteer-page-settings(mobile)*/
 
+.aboutbox10{
+    width: 100%;
+    height: 420px;
+    margin-top: -90px;
+    border-radius: 30px;
+    margin-bottom: 300px;
+}
+.aboutbox10 p{
+    font-size: 18px;
+    background-color: rgb(54, 127, 156);
+    margin-top: 200px;
+}
+
+.about-first-box2 p{
+    color: rgb(54, 127, 156);
+    font-family: 'Montserrat', san serif;
+    font-size: 70px;
+    font-weight: bolder;
+    text-align: center;
+    margin-top: -100px;
+}
+
+/*Volunteer-page-settings-end(mobile)*/
+
+/*Foster-page-settings(mobile)*/
+
+.aboutbox11{
+    width: 100%;
+    height: 420px;
+    margin-top: -90px;
+    border-radius: 30px;
+    margin-bottom: 350px;
+}
+.aboutbox11 p{
+    font-size: 18px;
+    background-color: rgb(54, 127, 156);
+    margin-top: 200px;
+}
+
+.about-first-box3 p{
+    color: rgb(54, 127, 156);
+    font-family: 'Montserrat', san serif;
+    font-size: 70px;
+    font-weight: bolder;
+    text-align: center;
+    margin-top: -100px;
+}
+
+/*Foster-page-settings-end(mobile)*/
+
+/*Adopt-page-settings(mobile)*/
+
+.aboutbox12{
+    width: 100%;
+    height: 420px;
+    margin-top: -90px;
+    border-radius: 30px;
+    margin-bottom: 350px;
+}
+.aboutbox12 p{
+    font-size: 18px;
+    background-color: rgb(54, 127, 156);
+    margin-top: 200px;
+}
+
+.about-first-box4 p{
+    color: rgb(54, 127, 156);
+    font-family: 'Montserrat', san serif;
+    font-size: 70px;
+    font-weight: bolder;
+    text-align: center;
+    margin-top: -100px;
+}
 
 }
